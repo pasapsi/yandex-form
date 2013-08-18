@@ -22,6 +22,11 @@ $(function() {
     $('.form-head').on('click', slideBox);
     $('#submit').on('click', collectionInformation);
     $('#reset').on('click', reset);
+    $('#fio').on('keyup', function() {
+        var $this =$(this),
+            val = $this.val();
+       $('#fio-p').text(val != '' ? ',' + val + ',': ''); 
+    });
     $('#select-info').on('click', function() {
        var $this = $(this),
            num = $this.val();
