@@ -1,0 +1,70 @@
+#form {
+    width: 980px;
+    margin: auto;
+}
+button {
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    cursor: pointer;
+}
+.indent_left {
+    margin-left:  164px;
+}
+#form .form-head {
+    font-size: 23px;
+    margin: 15px 0px 15px 0px;
+    background: lightGrey;
+    padding: 7px;
+    color: #525252;
+    cursor: pointer;
+}
+    #form-anketa .form-anketa-row,
+    #form-about .form-about-row {
+        margin-bottom: 10px;
+        line-height: 130%;
+    }
+        #form-anketa .form-anketa-row .form-anketa-row-label,
+        #form-about .form-about-row .form-about-row-label {
+            width: 150px;
+            vertical-align: top;
+        }
+            #form-anketa .form-anketa-row  input[type="text"],
+            #form-anketa .form-anketa-row  textarea,
+            #form-about .form-about-row  input[type="text"],
+            #form-about .form-about-row  textarea {
+                width:  770px;
+            }
+            #form-anketa .form-anketa-row  textarea,
+            #form-about .form-about-row  textarea {
+                height: 100px;
+            }
+            #form-anketa .form-anketa-row .form-anketa-row-body,
+            #form-about .form-about-row .form-about-row-body {
+                margin-left:  10px;
+            }
+            #form-anketa .form-anketa-row .form-anketa-row-body .form-anketa-row-body-descripotion,
+            #form-about .form-about-row .form-about-row-body .form-about-row-body-descripotion {
+                color: #424242;
+                width: 784px;
+                margin-bottom: 10px;
+            }
+            #form-anketa .form-anketa-row .form-anketa-row-description,
+            #form-about .form-about-row .form-about-row-description {
+                margin-left:  164px;
+            }
+            #form-anketa .form-anketa-row .form-anketa-row-body .form-anketa-row-body-descripotion p,
+            #form-about .form-about-row .form-about-row-body .form-about-row-body-descripotion p {
+                margin-bottom: 10px;
+            }
+            #form-anketa .form-anketa-row .form-anketa-row-body .form-anketa-row-body-descripotion ul,
+            #form-about .form-about-row .form-about-row-body .form-about-row-body-descripotion ul {
+                margin-left: 35px;
+                margin-bottom: 10px;
+            }
+            #form-anketa .form-anketa-row .form-anketa-row-body .form-anketa-row-body-descripotion li,
+            #form-about .form-about-row .form-about-row-body .form-about-row-body-descripotion li {
+                list-style-type: disc;
+            }
+    #select-info-6 {
+        margin-top: 10px;
+    }

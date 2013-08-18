@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="Robots" content="noindex" />
+    <meta name="description" content=" " />
+    <title>Анкета</title>
+    <link type="text/css" rel="stylesheet" href="css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <div id="form">
+        <div id="form-anketa">
+            <div class="form-head">Заполните анкету</div>
+            <div class="wrapper-form">
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №1</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            Год рождения
+                        </div>
+                        <input type="text" id="q-1" class="br4" />
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                 <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №2</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            Город, в котором вы живёте
+                        </div>
+                        <input type="text" id="q-2" class="br4" />
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                 <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №3</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            Вуз, факультет, специальность, кафедра.
+                        </div>
+                        <input type="text" id="q-3" class="br4" />
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №4</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            Год окончания вуза
+                        </div>
+                        <input type="text" id="q-4" class="br4" />
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №5</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            Уровень владения английским языком
+                        </div>
+                        <input type="text" id="q-5" class="br4" />
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №6</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            Чего вы ожидаете от участия в Школе?
+                        </div>
+                        <input type="text" id="q-6" class="br4" />
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №7</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            Откуда вы о нас узнали?
+                        </div>
+                        <input type="text" id="q-7" class="br4" />
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №8</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            Сколько времени вы были бы готовы уделять стажировке или работе в Яндексе?
+                        </div>
+                        <input type="text" id="q-8" class="br4" />
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №9</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            <div class="short">
+                                Расскажите о вашем опыте разработки. Нам будет интересно всё — как серьезный интерфейс.
+                                <div class="more-info"><a href="javascript: void(0);">Показать больше</a></div>
+                            </div>
+                            <div class="full display_n">Расскажите о вашем опыте разработки. Нам будет интересно всё — как серьезный интерфейс, так и просто домашняя страничка.</div>
+                        </div>
+                        <textarea id="q-9" class="br4"></textarea>
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №10</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            <div class="short">
+                                Если вы где-нибудь работали, расскажите, какие у вас были должностные обязанности и был ли опыт.
+                                <div class="more-info"><a href="javascript: void(0);">Показать больше</a></div>
+                            </div>
+                            <div class="full display_n">
+                                Если вы где-нибудь работали, расскажите, какие у вас были должностные обязанности и был ли опыт работы в команде.
+                            </div>
+                        </div>
+                        <textarea id="q-10" class="br4"></textarea>
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №11</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            <div class="short">
+                                Перечислите, какими программными продуктами вы пользуетесь в своей работе — от редактора до
+                                <div class="more-info"><a href="javascript: void(0);">Показать больше</a></div>
+                            </div>
+                            <div class="full display_n">
+                                Перечислите, какими программными продуктами вы пользуетесь в своей работе — от редактора до специализированных утилит (Intellij Idea, Node.js, Uglify.js, GNU Make). Для каждого инструмента укажите, какие задачи вы с помощью него решаете и почему выбрали именно его.
+                            </div>
+                        </div>
+                        <textarea id="q-11" class="br4"></textarea>
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №12</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            <div class="short">
+                                Пользуетесь ли вы командной строкой? Какими командами вы пользуетесь и какие задачи вы решаете с их помощью? 
+                                <div class="more-info"><a href="javascript: void(0);">Показать больше</a></div>
+                            </div>
+                            <div class="full display_n">
+                                Пользуетесь ли вы командной строкой? Какими командами вы пользуетесь и какие задачи вы решаете с их помощью? С какими программами вы преимущественно или полностью взаимодействуете через интерфейс командной строки?
+                            </div>
+                        </div>
+                        <textarea id="q-12" class="br4"></textarea>
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №13</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            <div class="short">
+                                <p>Напишите на JavaScript функцию, которая выводит список всех чисел, которые равны сумме факториалов своих цифр. Пример такого числа:</p> 
+                                <div class="more-info"><a href="javascript: void(0);">Показать больше</a></div>
+                            </div>
+                            <div class="full display_n">
+                                <p>Напишите на JavaScript функцию, которая выводит список всех чисел, которые равны сумме факториалов своих цифр. Пример такого числа:</p>
+                                <p>4! + 0! + 5! + 8! + 5! = 40585</p>
+                                <p>В качестве ответа на вопрос пришлите ссылку на http://jsfiddle.net/ с вашим кодом или на ваш репозиторий на <a href="https://github.com/">https://github.com/</a>.</p>
+                            </div>
+                        </div>
+                        <input type="text" id="q-13" class="br4" />
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №14</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            <div class="short">
+                                <p>Вы — пилот грузового межгалактического корабля. Ваша работа — перевозка грузов с одной планету на другую. Грузоподъемность вашего корабля ограничена.</p> 
+                                <div class="more-info"><a href="javascript: void(0);">Показать больше</a></div>
+                            </div>
+                            <div class="full display_n">
+                                 <p>Вы — пилот грузового межгалактического корабля. Ваша работа — перевозка грузов с одной планету на другую. Грузоподъемность вашего корабля ограничена, поэтому за один рейс вы можете перевезти не более N кг полезного груза. Ваш корабль умеет сообщать свое состояние (местоположение и степень загруженности), а также летать в любую точку пространства. Каждая планета может содержать на себе груз, который можно взять. Также на каждой планете груз можно оставить .</p>
+                                 <p>Задание</p>
+                                 <p>Даны незавершенные интерфейсы корабля и планеты. Напишите недостающий код.</p>
+                                 <p>Полное условие задачи доступно на</p>
+                                 <p><a href="https://github.com/yandex-shri/introtask-space.">https://github.com/yandex-shri/introtask-space.</a></p>
+                                 <p>В качестве ответа на вопрос пришлите ссылку на <a href="http://jsfiddle.net/">http://jsfiddle.net/</a> с вашим кодом или на ваш репозиторий на <a href="https://github.com/">https://github.com/</a>.</p>
+                            </div>
+                           </div>
+                        <input type="text" id="q-14" class="br4" />
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+                <div class="form-anketa-row">
+                    <div class="form-anketa-row-label d_inline">Вопрос №15</div>
+                    <div class="form-anketa-row-body d_inline">
+                        <div class="form-anketa-row-body-descripotion">
+                            <div class="short">
+                                <p>Сверстайте форму-анкету с нашими заданиями для кандидатов. Страница должна работать в следующих браузерах:</p> 
+                                <div class="more-info"><a href="javascript: void(0);">Показать больше</a></div>
+                            </div>
+                            <div class="full display_n">
+                                <p>Сверстайте форму-анкету с нашими заданиями для кандидатов. Страница должна работать в следующих браузерах:</p>
+                                <ul>
+                                    <li>MSIE (8, 9, 10)</li>
+                                    <li>Google Chrome (26, 27)</li>
+                                    <li>Firefox (20, 21)</li>
+                                    <li>Opera (12.15, 12.14)</li>
+                                    <li>Яндекс.Браузер 1.5</li>
+                                </ul>
+                                <p>По возможности используйте приёмы безопасной деградации CSS. Страница должна содержать интерактив, реализованный с помощью JS и jQuery. Это может быть:</p>
+                                <ul>
+                                    <li>проверка полноты и правильности заполнения полей (где это возможно);</li>
+                                    <li>возможность свернуть и развернуть разделы (аккордеон);</li>
+                                    <li>индикатор заполнения анкеты;</li>
+                                    <li>что-нибудь ещё.</li>
+                                </ul>
+                                <p>Подумайте над тем, как эти данные будут отправляться на сервер.</p>
+                                <p>Будет плюсом, если вы сверстаете страницу, используя БЭМ.</p>
+                                <p>Дополнительные задания</p>
+                                <p>1. Выполните задание про форму-анкету, используя один из классических шаблонизаторов: Handlebars, mustache, Dust, Jade и т.п.</p>
+                                <p>2. Выполните задание про форму-анкету, используя один из экзотических шаблонизаторов: XSLT, YATE, BEMHTML и т.п.</p>
+                                <p>Разработку необходимо вести на <a href="https://github.com/">https://github.com/</a>. В качестве ответа на вопрос пришлите ссылку на проект.</p>
+                            </div>
+                        </div>
+                        <textarea class="br4" id="q-15"></textarea>
+                    </div>
+                    <div class="form-anketa-row-description"></div>
+                </div>
+        </div>
+        </div>
+        <div id="form-about">
+            <div class="form-head">Расскажите нам о себе</div>
+            <div class="wrapper-form">
+                <div class="form-about-row">
+                    <div class="form-about-row-label d_inline">Резюме до 250 КБ</div>
+                    <div class="form-about-row-body d_inline">
+                        <button>Загрузить резюме</button>
+                    </div>
+                    <div class="form-about-row-description"></div>
+                </div>
+                <div class="form-about-row">
+                    <div class="form-about-row-label d_inline">Ссылка на профиль в Моем Круге</div>
+                    <div class="form-about-row-body d_inline">
+                        <input type="text"  id="link-profile" class="br4" />
+                    </div>
+                    <div class="form-about-row-description"></div>
+                </div>
+                <div class="form-about-row">
+                    <div class="form-about-row-label d_inline">Имя, Фамилия</div>
+                    <div class="form-about-row-body d_inline">
+                        <input type="text" id="fio" class="br4" />
+                    </div>
+                    <div class="form-about-row-description"></div>
+                </div>
+                <div class="form-about-row">
+                    <div class="form-about-row-label d_inline">Телефон</div>
+                    <div class="form-about-row-body d_inline">
+                        <input type="text" id="phone" class="br4" />
+                    </div>
+                    <div class="form-about-row-description"></div>
+                </div>
+                <div class="form-about-row">
+                    <div class="form-about-row-label d_inline">E-mail</div>
+                    <div class="form-about-row-body d_inline">
+                        <input type="text" id="email" class="br4" />
+                    </div>
+                    <div class="form-about-row-description"></div>
+                </div>
+                <div class="form-about-row">
+                    <div class="form-about-row-label d_inline">Дополнительные сведения</div>
+                    <div class="form-about-row-body d_inline">
+                        <textarea class="br4" id="more-information" ></textarea>
+                    </div>
+                    <div class="form-about-row-description">
+                        Откуда вы узнали о нашем предложении?
+                    </div>
+                </div>
+                <div class="form-about-row indent_left">
+                        <select id="select-info">
+                            <option value="0">Не выбрано</option>
+                            <option value="1">от HR-менеджера Яндекса</option>
+                            <option value="2">Я.Субботник</option>
+                            <option value="3">Yet another Conference</option>
+                            <option value="4">на другой конференции</option>
+                            <option value="5">из поиска</option>
+                            <option value="6">по рекомендации</option>
+                        </select>
+                        <input type="text" class="display_n br4" id="select-info-6" />
+                </div>
+                <div class="form-about-row indent_left">
+                    <input type="checkbox" id="agreement" class="d_inline" />
+                    <label for="agreement" class="d_inline">
+                        Я даю свое согласие на передачу в ООО «ЯНДЕКС» резюме и/или анкеты, содержащих мои персональные данные, и согласен с тем, что они будут храниться в ООО «ЯНДЕКС» в течение 5 лет и будут обрабатываться исключительно для целей предложения мне вакансий группы компаний «ЯНДЕКС», в соответствии с Федеральным законом «О персональных данных».
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div id="panel-action">
+            <button id="submit">Отправить</button>
+            <button id="reset">Очистить</button>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

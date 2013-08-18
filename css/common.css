@@ -1,0 +1,93 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+:focus {outline: 0;}
+ol, ul {list-style: none;}
+a img {border: 0;}
+blockquote, q {quotes: "" "";}
+blockquote:before, blockquote:after,
+q:before, q:after {content: "";}
+table tr td{vertical-align: top;}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+
+input,select,textarea { 
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+         -o-border-radius: 2px;
+            border-radius: 2px;
+    border: 1px solid #969696;
+    font-family: Georgia;
+    padding: 7px;
+    z-index: 2; 
+}
+input:focus,
+textarea:focus,
+select:focus {
+    border: 1px solid #70C2F7;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(116, 203, 255, 0.35);
+       -mos-box-shadow: 0px 0px 4px 1px rgba(116, 203, 255, 0.35);
+        -ms-box-shadow: 0px 0px 4px 1px rgba(116, 203, 255, 0.35);
+         -o-box-shadow: 0px 0px 4px 1px rgba(116, 203, 255, 0.35);
+            box-shadow: 0px 0px 4px 1px rgba(116, 203, 255, 0.35);
+
+}
+input:hover,
+textarea:hover,
+select:hover {
+    border: 1px solid #70C2F7;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    color: black;
+    font-family: Arial, verdana, sans-serif, Lucida Sans;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    color: #36c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.f_l { float:  left; }
+.f_r { float:  left; }
+.c_b { clear: both; }
+.d_inline {
+    display: inline-block;
+}
+.br4 {
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.display_n {
+    display: none;
+}
