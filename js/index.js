@@ -17,7 +17,7 @@ $(function() {
         dataType: 'json'
     });
     
-    //Event
+    //Event 
     $('.more-info').on('click', showInfo);
     $('.form-head').on('click', slideBox);
     $('#submit').on('click', collectionInformation);
